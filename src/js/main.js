@@ -1,9 +1,8 @@
 $(function() {
 
+  // hamburger menu
   var $body = $('body'),
-      $trigger = $('.js-nav-trigger'),
-      $bio = $('.full-bio'),
-      $viewbio = $('.js-view-bio');
+      $trigger = $('.js-nav-trigger');
 
   $trigger.on('click', function() {
     ($trigger, $body).toggleClass('is-active'); 
