@@ -61,15 +61,11 @@ normalize-css()
 
 
 // Box Model
-if $box-model == true
+if $box--model == true
 	*
 		box-sizing: border-box
 
 
 // Debug Styling
-// set true or false
-debug--mode = true
-
-
-if debug--mode == true
+if $debug--mode == true
   @import "base/_debug"
